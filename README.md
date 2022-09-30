@@ -2,7 +2,7 @@
 
 ## Installation and usage 
 
-1. Create env from [template](/example.env) (only once)
+1. Use [.env.example](/.env.example) to set up .env
 ```bash
 cp example.env .env
 ```

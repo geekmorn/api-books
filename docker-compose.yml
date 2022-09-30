@@ -16,7 +16,7 @@ services:
 
   database:
     image: postgres
-    container_name: postgres
+    container_name: ${POSTGRES_HOST}
     env_file:
       - .env
     ports:

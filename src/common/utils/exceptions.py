@@ -4,7 +4,7 @@ from fastapi import HTTPException
 def not_found() -> HTTPException:
     raise HTTPException(
         status_code=404,
-        detail=f"Not not found"
+        detail=f"Not found"
     )
 
 
