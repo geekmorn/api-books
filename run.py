@@ -5,7 +5,7 @@ from src.common.config.settings import settings
 def start_app():
     uvicorn.run(
         "src.main:app",
-        host=settings.HOST,
+        host="0.0.0.0",
         port=settings.PORT,
         reload=True
     )

@@ -6,7 +6,6 @@ load_dotenv(find_dotenv())
 
 
 class Settings(BaseSettings):
-    HOST: str
     PORT: int
     ROUTE_PREFIX: str
     POSTGRES_USER: str
