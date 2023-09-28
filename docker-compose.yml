@@ -1,23 +1,23 @@
-version: '0.0.1'
+version: "3.8"
 
 services:
-  api:
-    build: .
-    container_name: api
-    command: poetry run app
-    env_file:
-      - .env
-    ports:
-      - "${PORT}:${PORT}"
-    volumes:
-      - .:/app
-    external_links:
-      - postgres:postgres
+    api:
+        build: .
+        container_name: api
+        command: poetry run app
+        env_file:
+            - .env
+        ports:
+            - "${PORT}:${PORT}"
+        volumes:
+            - .:/app
+        external_links:
+            - postgres:postgres
 
-  database:
-    image: postgres
-    container_name: ${POSTGRES_HOST}
-    env_file:
-      - .env
-    ports:
-      - "5432:5432"
+    database:
+        image: postgres
+        container_name: ${POSTGRES_HOST}
+        env_file:
+            - .env
+        ports:
+            - "5432:5432"
