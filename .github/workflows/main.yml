@@ -23,8 +23,5 @@ jobs:
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         port: 22
         script: |
-          cd api-books
-          git pull origin main
-          git status
-          docker-comnpose up
+          ls
           
