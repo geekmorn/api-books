@@ -1,0 +1,6 @@
+[flake8]
+ignore = C101
+exclude = .git, .gitingore, pyproject.toml, poetry.lock, README.md, .editorconfig
+filename = *.py
+accept-encodings = utf-8
+max-line-length = 119

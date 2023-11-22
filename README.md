@@ -1,15 +1,5 @@
 # Simple example with FastApi + PostgreSQL
 
-## Installation and usage
+## Complete redesign of the project ⚙️
 
-1. Use [.env.example](/.env.example) to set up .env
-
-```bash
-cp .env.example .env
-```
-
-2. Run docker stack
-
-```bash
-docker-compose up
-```
+![hippo](https://media3.giphy.com/media/aUovxH8Vf9qDu/giphy.gif)
